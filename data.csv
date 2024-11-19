@@ -1,0 +1,97 @@
+time,entity_name,description,component,notes,severity,is_root_cause
+25-10-2024 12:14,VM3 (Database),Database connection error,Database,Database connection error due to unexpected issue,Info,1
+25-10-2024 12:15,VM1 (Middle Layer),Unexpected system failure! Immediate action required!,Database,,Info,1
+25-10-2024 12:16,VM1 (Middle Layer),API call timeout,API,API call timeout due to unexpected issue,Critical,
+25-10-2024 12:17,VM3 (Database),Middleware no response,Database,Middleware no response due to unexpected issue,Warning,
+25-10-2024 12:18,VM1 (Middle Layer),Middleware no response,Middleware,Middleware no response reported,Warning,0
+25-10-2024 12:19,VM1 (Middle Layer),API is facing timeout issue,Middleware,API is facing timeout issue due to unexpected issue,Critical,1
+25-10-2024 12:20,VM1 (Middle Layer),Database write failure,API,,Critical,1
+25-10-2024 12:21,VM3 (Database),Failed database query,API,,Critical,
+25-10-2024 12:22,VM2 (Application),API is facing timeout issue,Database,API is facing timeout issue due to unexpected issue,Critical,1
+25-10-2024 12:23,VM2 (Application),Middleware crashed,Middleware,Middleware crashed reported,Warning,0
+25-10-2024 12:24,VM3 (Database),API is facing timeout issue,API,API is facing timeout issue reported,Info,0
+25-10-2024 12:25,VM2 (Application),API service unreachable,Middleware,API service unreachable due to unexpected issue,Info,
+25-10-2024 12:26,VM1 (Middle Layer),Database locked,Database,Database locked due to unexpected issue,Warning,1
+25-10-2024 12:27,VM3 (Database),Database replication issue,Database,Database replication issue due to unexpected issue,Info,1
+25-10-2024 12:28,VM2 (Application),API not responding,Middleware,API not responding reported,Critical,0
+25-10-2024 12:29,VM3 (Database),Middleware no response,API,Middleware no response due to unexpected issue,Warning,1
+25-10-2024 12:30,VM3 (Database),Database crash detected,Database,Database crash detected reported,Critical,0
+25-10-2024 12:31,VM3 (Database),Middleware no response,API,Middleware no response due to unexpected issue,Critical,1
+25-10-2024 12:32,VM3 (Database),API not available,API,API not available due to unexpected issue,Critical,
+25-10-2024 12:33,VM3 (Database),API not available,API,API not available reported,Warning,0
+25-10-2024 12:34,VM1 (Middle Layer),API not available,API,API not available due to unexpected issue,Critical,
+25-10-2024 12:35,VM2 (Application),API call timeout,API,API call timeout reported,Critical,0
+25-10-2024 12:36,VM3 (Database),Database query timeout,API,,Warning,1
+25-10-2024 12:37,VM2 (Application),Unexpected system failure! Immediate action required!,Database,Database locked due to unexpected issue,Critical,
+25-10-2024 12:38,VM2 (Application),API is facing timeout issue,API,API is facing timeout issue reported,Critical,0
+25-10-2024 12:39,VM1 (Middle Layer),API not available,API,API not available due to unexpected issue,Info,1
+25-10-2024 12:40,VM3 (Database),Slow database query,API,Slow database query due to unexpected issue,Warning,1
+25-10-2024 12:41,VM2 (Application),API call timeout,Middleware,API call timeout reported,Critical,0
+25-10-2024 12:42,VM3 (Database),API response failure,Database,,Info,0
+25-10-2024 12:43,VM1 (Middle Layer),Database locked,Database,,Critical,1
+25-10-2024 12:44,VM3 (Database),Database crash detected,Database,Database crash detected reported,Info,0
+25-10-2024 12:45,VM3 (Database),Unexpected system failure! Immediate action required!,Database,Database crash detected due to unexpected issue,Warning,1
+25-10-2024 12:46,VM2 (Application),Unexpected system failure! Immediate action required!,Middleware,Failed database query due to unexpected issue,Warning,1
+25-10-2024 12:47,VM3 (Database),Database connection error,Database,Database connection error due to unexpected issue,Warning,
+25-10-2024 12:48,VM1 (Middle Layer),Slow database query,Database,Slow database query due to unexpected issue,Info,1
+25-10-2024 12:49,VM2 (Application),Database locked,Database,,Warning,
+25-10-2024 12:50,VM3 (Database),Database query timeout,Database,Database query timeout reported,Critical,0
+25-10-2024 12:51,VM2 (Application),No response from Database,Database,No response from Database reported,Warning,0
+25-10-2024 12:52,VM2 (Application),Middleware timeout,Middleware,Middleware timeout due to unexpected issue,Info,
+25-10-2024 12:53,VM3 (Database),Unexpected system failure! Immediate action required!,Database,Database crash detected due to unexpected issue,Critical,1
+25-10-2024 12:54,VM3 (Database),API response failure,Database,,Info,1
+25-10-2024 12:55,VM3 (Database),API call timeout,Database,,Critical,
+25-10-2024 12:56,VM3 (Database),API is facing timeout issue,API,API is facing timeout issue due to unexpected issue,Critical,1
+25-10-2024 12:57,VM1 (Middle Layer),No response from Database,API,No response from Database due to unexpected issue,Critical,1
+25-10-2024 12:58,VM2 (Application),API not available,Database,API not available due to unexpected issue,Info,
+25-10-2024 12:59,VM1 (Middle Layer),Middleware timeout,Middleware,,Warning,0
+25-10-2024 13:00,VM3 (Database),Database connection error,Database,Database connection error reported,Info,0
+25-10-2024 13:01,VM2 (Application),API is facing timeout issue,Database,API is facing timeout issue due to unexpected issue,Warning,1
+25-10-2024 13:02,VM3 (Database),Middleware timeout,API,,Info,
+25-10-2024 13:03,VM2 (Application),Database connection error,Database,Database connection error reported,Warning,0
+25-10-2024 12:14,VM3 (Database),Database query timeout,Database,Database not responding,Critical,1
+25-10-2024 12:15,VM1 (Middle Layer),No response from Database,Middleware,Middleware failure,Critical,0
+25-10-2024 12:16,VM2 (Application),API is facing timeout issue,API,API not responding,Critical,0
+25-10-2024 12:17,VM3 (Database),Database connection error,Database,Unable to connect to database,Critical,1
+25-10-2024 12:18,VM2 (Application),API not responding,API,Service unavailable,Critical,0
+25-10-2024 12:19,VM1 (Middle Layer),Middleware crashed,Middleware,Connection lost to database,Critical,0
+25-10-2024 12:20,VM3 (Database),Slow database query,Database,Database performance degradation,Critical,1
+25-10-2024 12:21,VM2 (Application),API timeout,API,Timeout while waiting for API response,Critical,0
+25-10-2024 12:22,VM1 (Middle Layer),Middleware no response,Middleware,Middleware service down,Critical,0
+25-10-2024 12:23,VM3 (Database),Database query failed,Database,Query execution error,Critical,1
+25-10-2024 12:24,VM2 (Application),API service unreachable,API,Could not reach API,Critical,0
+25-10-2024 12:25,VM1 (Middle Layer),Middleware not responding,Middleware,Middleware unable to connect to database,Critical,0
+25-10-2024 12:26,VM3 (Database),Connection pool exhausted,Database,Database connection pool full,Critical,1
+25-10-2024 12:27,VM2 (Application),API latency issue,API,API response time high,Critical,0
+25-10-2024 12:28,VM1 (Middle Layer),Middleware timeout,Middleware,Timeout connecting to database,Critical,0
+25-10-2024 12:29,VM3 (Database),Database locked,Database,Database locked for writes,Critical,1
+25-10-2024 12:30,VM2 (Application),API not available,API,Service not found,Critical,0
+25-10-2024 12:31,VM1 (Middle Layer),Middleware crash,Middleware,Error communicating with database,Critical,0
+25-10-2024 12:32,VM3 (Database),Failed database query,Database,Query timed out,Critical,1
+25-10-2024 12:33,VM2 (Application),API service error,API,API call failed,Critical,0
+25-10-2024 12:34,VM1 (Middle Layer),Middleware unresponsive,Middleware,Lost connection to database,Critical,0
+25-10-2024 12:35,VM3 (Database),Database transaction error,Database,Transaction rollback failure,Critical,1
+25-10-2024 12:36,VM2 (Application),API call timeout,API,Unable to reach API,Critical,0
+25-10-2024 12:37,VM1 (Middle Layer),Middleware service down,Middleware,Middleware timed out,Critical,0
+25-10-2024 12:38,VM3 (Database),Database replication issue,Database,Replication lag detected,Critical,1
+25-10-2024 12:39,VM2 (Application),API timeout issue,API,API failed to respond in time,Critical,0
+25-10-2024 12:40,VM1 (Middle Layer),Middleware request failure,Middleware,Request to middleware failed,Critical,0
+25-10-2024 12:41,VM3 (Database),Database crash detected,Database,Database service stopped unexpectedly,Critical,1
+25-10-2024 12:42,VM2 (Application),API request timeout,API,Failed API request due to timeout,Critical,0
+25-10-2024 12:43,VM1 (Middle Layer),Middleware no response,Middleware,Middleware service unresponsive,Critical,0
+25-10-2024 12:44,VM3 (Database),Database connection failure,Database,Unable to establish database connection,Critical,1
+25-10-2024 12:45,VM2 (Application),API unresponsive,API,Failed to communicate with API,Critical,0
+25-10-2024 12:46,VM1 (Middle Layer),Middleware failure,Middleware,Middleware timed out waiting for database,Critical,0
+25-10-2024 12:47,VM3 (Database),Database connection issue,Database,Could not connect to database,Critical,1
+25-10-2024 12:48,VM2 (Application),API not reachable,API,Service unavailable,Critical,0
+25-10-2024 12:49,VM1 (Middle Layer),Middleware error,Middleware,Error reaching database service,Critical,0
+25-10-2024 12:50,VM3 (Database),Database query timeout,Database,Database took too long to respond,Critical,1
+25-10-2024 12:51,VM2 (Application),API timeout,API,API failed to respond,Critical,0
+25-10-2024 12:52,VM1 (Middle Layer),Middleware failure,Middleware,Middleware service unresponsive,Critical,0
+25-10-2024 12:53,VM3 (Database),Database write failure,Database,Failed to write to database,Critical,1
+25-10-2024 12:54,VM2 (Application),API connection issue,API,API service unreachable,Critical,0
+25-10-2024 12:55,VM1 (Middle Layer),Middleware timeout,Middleware,Could not establish connection to database,Critical,0
+25-10-2024 12:56,VM3 (Database),Failed database replication,Database,Replication synchronization error,Critical,1
+25-10-2024 12:57,VM2 (Application),API response failure,API,API call failed due to timeout,Critical,0
+25-10-2024 12:58,VM1 (Middle Layer),Middleware crashed,Middleware,Lost connection to database service,Critical,0
+25-10-2024 12:59,VM3 (Database),Database timeout,Database,Database not responding to queries,Critical,1
