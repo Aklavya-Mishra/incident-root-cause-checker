@@ -13,7 +13,7 @@ This project provides a comprehensive pipeline for predicting root causes of cri
 ## Installation and Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/root-cause-prediction.git
+   git clone https://github.com/Aklavya-Mishra/incident-root-cause-checker.git
    cd root-cause-prediction
    ```
 2. Install dependencies:
@@ -30,7 +30,7 @@ This project provides a comprehensive pipeline for predicting root causes of cri
 Run the main script to preprocess data, extract features, train the Random Forest model, and evaluate it:
 
 ```bash
-python main.py
+python app.py
 ```
 
 This script performs:
@@ -58,10 +58,9 @@ Prediction Results (`predicted_test_results.csv`)
 ```bash
 root-cause-prediction/
 ├── README.md                  # Project documentation
-├── main.py                    # Main script for preprocessing, training, and prediction
+├── app.py                    # Main script for preprocessing, training, and prediction
 ├── data.csv                   # Training data (replace with your own data)
 ├── test.csv                   # New event data for prediction
-├── predicted_test_results.csv # Output file with predictions
 ├── requirements.txt           # Python dependencies
 ```
 
@@ -105,7 +104,7 @@ pip install -r requirements.txt
 ## Example Usage
 1. Train the Model:
 	```bash
-	python main.py
+	python app.py
 	``` 
 2. View Results: Open `predicted_test_results.csv` to see predictions for new event data.
 
