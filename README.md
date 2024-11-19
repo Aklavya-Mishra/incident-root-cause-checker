@@ -21,8 +21,8 @@ This project provides a comprehensive pipeline for predicting root causes of cri
    pip install -r requirements.txt
    ```
 3. Prepare your data files:
-   - Training Data: Save your training data in data.csv (sample provided in the repository).
-   - Test Data: Save your new event data in test.csv for predictions.
+   - Training Data: Save your training data in `data.csv` (sample provided in the repository).
+   - Test Data: Save your new event data in `test.csv` for predictions.
 
 ## Usage
 
@@ -39,19 +39,19 @@ This script performs:
   - Evaluation on a test set with accuracy and F1 score.
 
 2. **Prediction for New Events**
-After training, the script will load new event data from test.csv, preprocess it, and predict whether each event is a root cause. The results are saved to predicted_test_results.csv.
+After training, the script will load new event data from `test.csv`, preprocess it, and predict whether each event is a root cause. The results are saved to `predicted_test_results.csv`.
 
 ## Input and Output
 **Input**
-Training Data (data.csv)
-New Event Data (test.csv)
+Training Data (`data.csv`) - Sample file present in the repo
+New Event Data (`test.csv`) - Sample file present in the repo
 
 **Output**
 Training Logs:
 
 Best hyperparameters for the Random Forest model.
 Evaluation metrics: Accuracy, F1 score, and classification report.
-Prediction Results (predicted_test_results.csv)
+Prediction Results (`predicted_test_results.csv`)
 
 
 ## File Structure
@@ -68,15 +68,15 @@ root-cause-prediction/
 ## How It Works
 1. **Data Preprocessing:**
 
-	- Converts the time column into datetime format.
-	- Creates additional features like hour, day_of_week, description_length, and notes_length.
-	- Handles missing values in description and notes by filling them with empty strings.
+	- Converts the `time` column into datetime format.
+	- Creates additional features like `hour`, `day_of_week`, `description_length`, and `notes_length`.
+	- Handles missing values in `description` and `notes` by filling them with empty strings.
 
 2. **Feature Engineering:**
 
-	- Uses TF-IDF Vectorization for textual columns (description and notes).
-	- Applies One-Hot Encoding for categorical columns (entity_name and component).
-	- Standardizes numerical features using StandardScaler.
+	- Uses TF-IDF Vectorization for textual columns (`description` and `notes`).
+	- Applies One-Hot Encoding for categorical columns (`entity_name` and `component`).
+	- Standardizes numerical features using `StandardScaler`.
 
 3. **Model Training:**
 
@@ -87,8 +87,8 @@ root-cause-prediction/
 4. **Prediction:**
 
 	- Processes new event data using the same feature engineering pipeline.
-	- Predicts root causes (is_root_cause) using the trained model.
-	- Saves predictions in predicted_test_results.csv.
+	- Predicts root causes (`is_root_cause`) using the trained model.
+	- Saves predictions in `predicted_test_results.csv`.
 
 ## Requirements
 - Python 3.8+
@@ -107,7 +107,7 @@ pip install -r requirements.txt
 	```bash
 	python main.py
 	``` 
-2. View Results: Open predicted_test_results.csv to see predictions for new event data.
+2. View Results: Open `predicted_test_results.csv` to see predictions for new event data.
 
 ## Contribution
 Feel free to fork the repository and create pull requests to improve the pipeline or add new features.
